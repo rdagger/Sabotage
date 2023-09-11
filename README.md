@@ -1,6 +1,9 @@
 # Sabotage
 
 This project is a Pygame remake of the classic Apple ][ game, Sabotage, originally developed by Mark Allen in 1981.
+
+![Sabotage01](https://github.com/rdagger/Sabotage/assets/106355/48e3cbad-f220-4177-9914-3579ef90564f)
+
 Overview
 
 I developed this remake specifically for my vintage cocktail table arcade machine. While it's optimized for a 1024x1280 vertical monitor resolution, the game is compatible with other common resolutions as well. Configuration options such as resolution and control settings can be customized via the settings.ini file. Difficulty adjustments can be made by modifying the WAVES dictionary in waves.py.
@@ -18,14 +21,14 @@ Gameplay
 
     Scoring: Earn points by destroying helicopters, paratroopers, jets, and bombs.
     Shrapnel Effect: Explosion shrapnel can take out other aircraft and paratroopers.
-    Paratrooper Dynamics: Shoot the parachute to make a paratrooper fall. Free-falling paratroopers can eliminate those already on the ground.
+    Paratrooper Dynamics: Shoot parachutes to make a paratroopers fall. Free-falling paratroopers can eliminate those on the ground.
     Resource Management: Every bullet fired subtracts from your score, so aim and accuracy are crucial.
     Game Over Conditions:
         Four paratroopers land on one side of your bunker.
         A single paratrooper lands on the top of your bunker.
         A bomb lands on the turret.
 
-Default Controls
+Default Keyboard Controls
 
     Player 1 Button: Left CTRL
     Player 2 Button: A
@@ -39,7 +42,7 @@ Dependencies
 
 Inspirations
 
-The Sabotage concept has inspired various clones and remakes, including:
+The Sabotage concept has inspired various clones and remakes over the decades, including:
 
     Commando Raid (Atari 2600, 1982)
     Paratrooper (PC, 1982)
@@ -54,6 +57,7 @@ The Sabotage concept has inspired various clones and remakes, including:
 Contributing
 
 Feel free to contribute to the project by submitting issues or pull requests.
+
 License
 
 This project is open-source, feel free to use it under the terms specified in the LICENSE file.
