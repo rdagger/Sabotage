@@ -41,7 +41,7 @@ Dependencies
 
     Pygame
 
-Inspirations
+Legacy
 
 The Sabotage concept has inspired various clones and remakes over the decades, including:
 
