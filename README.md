@@ -7,6 +7,7 @@ This project is a Pygame remake of the classic Apple ][ game, Sabotage, original
 Overview
 
 I developed this remake specifically for my vintage cocktail table arcade machine. While it's optimized for a 1024x1280 vertical monitor resolution, the game is compatible with other common resolutions as well. Configuration options such as resolution and control settings can be customized via the settings.ini file. Difficulty adjustments can be made by modifying the WAVES dictionary in waves.py.
+
 Features
 
     Controls: Use the mouse or arrow keys to control the player's turret.
